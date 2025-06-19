@@ -1,0 +1,89 @@
+.root {
+    -fx-background-color:#f0f0f0; /* Fondo gris claro */
+    -fx-padding:10px;
+    -fx-font-family:"Arial";
+    -fx-font-size:14px;
+}
+
+.text-field {
+    -fx-max-width:400px;
+    -fx-height:50px;
+    -fx-font-size:32px;    
+    -fx-margin-bottom: auto;
+    -fx-border-color: #000000;
+    -fx-border-radius:15px;
+    -fx-border-color: #c0c0cc;  /* Color de la línea */
+    -fx-border-width: 1px; /* Grosor de la línea */
+    -fx-padding: 5px; /* Espacio interior del botón */
+     
+}
+
+.button {
+    -fx-min-width: 75px;
+    -fx-min-height: 75px;
+    -fx-font-size:32px;
+    -fx-border-width: 1;
+    -fx-padding: 1;
+    -fx-background-color:lightgray;
+    -fx-border-radius:15px;
+    -fx-border-color: #c0c0cc;  /* Color de la línea */
+    -fx-border-width: 1px; /* Grosor de la línea */
+    -fx-padding: 5px; /* Espacio interior del botón */
+}
+
+.button:hover {
+    -fx-background-color: gainsboro;
+}
+
+.button:pressed {
+    -fx-background-color:grey;
+}
+
+/* Estilos específicos para operadores */
+.button.operador {
+    -fx-background-color: dimgray;    
+    -fx-text-fill:white;
+    -fx-font-weight: bold;
+    -fx-border-color: snow;
+}
+
+.button.operador:hover {
+    -fx-background-color: #a9a9a9;
+}
+
+.button.operador:pressed {
+    -fx-background-color: gray;
+}
+
+/* Estilos específicos para el botón de igual */
+.button.igual {
+    -fx-background-color: #c0c0cc;
+    -fx-text-fill: #b22222;
+    -fx-font-weight: bold;
+    -fx-border-color: snow;
+}
+
+.button.igual:hover {
+    -fx-background-color:  gray;
+    
+}
+
+.button.igual:pressed {
+    -fx-background-color: dimgrey;
+}
+
+/* Estilos específicos para el botón de limpiar */
+.button.limpiar {
+    -fx-background-color: #b22222;
+    -fx-font-weight: bold;
+    -fx-text-fill:white;
+    -fx-border-color: snow;
+}
+
+.button.limpiar:hover {
+    -fx-background-color:  crimson;
+}
+
+.button.limpiar:pressed {
+    -fx-background-color:  indianred;
+}
